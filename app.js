@@ -2,6 +2,7 @@
 document.querySelector('form').addEventListener('submit', handleSubmitForm);
 document.querySelector('ul').addEventListener('click', handleClickDeleteOrCheck);
 
+
 //Event Handlers
 function handleSubmitForm(e) {
     e.preventDefault();
@@ -50,6 +51,4 @@ function deleteTodo(e) {
    })
 
     item.classList.add('todo-list-item-fall');
-
-    item.remove();
 }
